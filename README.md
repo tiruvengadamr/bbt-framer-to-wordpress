@@ -21,18 +21,32 @@ BBT Framer to WordPress is a WordPress plugin specifically designed to import co
 [![GitHub Issues](https://img.shields.io/github/issues/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/stargazers)
 
-> A specialized WordPress plugin designed for seamlessly importing Framer content as blog posts via CSV files, with advanced features like image handling, custom field mapping, and batch processing.
+## 🛠️ Development
 
-BBT Framer to WordPress is a WordPress plugin specifically designed to import content from Framer projects as blog posts via CSV files. Originally created to bridge the gap between Framer designs and WordPress content management, this plugin excels at handling Framer-exported data and converting it into fully-featured WordPress Posts Importer and is maintained by **[Bytes Brothers](https://bytesbrothers.com)**. The plugin supports featured images, custom field mapping, duplicate detection and batch processing with progress feedback.
+### Setting Up Development Environment
 
-## 🚀 Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/tiruvengadamr/bbt-framer-to-wordpress.git
 
-1. **Download** the latest release
-2. **Install** via WordPress admin (Plugins → Add New → Upload Plugin)
-3. **Navigate** to Tools → BBT Framer Importer
-4. **Upload** your CSV file and start importing!BT Framer to WordPress
+# Navigate to plugin directory
+cd bbt-framer-to-wordpress
 
-BBT Framer to WordPress is a WordPress plugin that imports blog posts from a CSV file into your site.  It’s a complete rebrand of the classic CSV Post Importer and is maintained by **Bytes Brothers**.  The plugin supports featured images, custom field mapping, duplicate detection and batch processing with progress feedback.
+# If you're working within a WordPress installation
+# Copy to your plugins directory
+cp -r . /path/to/wordpress/wp-content/plugins/bbt-framer-to-wordpress/
+```
+
+### File Structure
+
+```
+bbt-framer-to-wordpress/
+├── bbt-framer-to-wordpress.php  # Main plugin file
+├── framer-importer.css          # Admin styles
+├── framer-importer.js           # Admin JavaScript
+├── README.md                    # Documentation
+├── license.txt                  # GPL v2 License
+└── languages/                   # Translation files (if any)
 
 ## ✨ Features
 
