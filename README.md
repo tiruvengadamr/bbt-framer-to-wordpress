@@ -1,61 +1,21 @@
 # BBT Framer to WordPress
 
-[![WordPress Plugin Version## 📖 Usage
+[![WordPress Plugin Version](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
+[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![GitHub Issues](https://img.shields.io/github/issues/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/stargazers)
 
-### Step-by-Step Guide
+> A specialized WordPress plugin designed for seamlessly importing Framer content as blog posts via CSV files, with advanced features like image handling, custom field mapping, and batch processing.
 
-1. **Upload CSV File**: From the importer page, upload your CSV file. The plugin will read the header row and present a mapping interface.
+BBT Framer to WordPress is a WordPress plugin specifically designed to import content from Framer projects as blog posts via CSV files. Originally created to bridge the gap between Framer designs and WordPress content management, this plugin excels at handling Framer-exported data and converting it into fully-featured WordPress posts. It's a complete rebrand of the classic CSV Post Importer and is maintained by **[Bytes Brothers](https://bytesbrothers.com)**. The plugin supports featured images, custom field mapping, duplicate detection and batch processing with progress feedback.
 
-2. **Configure Field Mapping**: For each CSV column, select which post field it should populate or choose **Custom Field** to provide your own meta key. Leave columns unmapped if you don't need them.
+## 🚀 Quick Start
 
-3. **Set Options**: Check the **Skip posts with duplicate slugs** box if you want to ignore rows when a post with the same slug already exists.
-
-4. **Start Import**: Click **Start Import**. The importer processes the file in batches and displays progress. When complete you'll see a summary of imported, skipped and failed rows.
-
-5. **Handle Failures**: If any rows failed you can click **Retry Failed Rows** to attempt them again.
-
-### CSV Format Requirements
-
-Your CSV file should have:
-- **Header row**: First row must contain column names
-- **UTF-8 encoding**: Recommended for special characters
-- **Proper escaping**: Quote fields containing commas or line breaks
-
-### Example CSV Structure
-
-```csv
-title,content,excerpt,slug,featured_image_url,featured_image_alt,category,tags
-"My First Post","This is the content of my first post.","A brief excerpt","my-first-post","https://example.com/image1.jpg","Alt text for image","Technology","wordpress,csv"
-"Second Post","Content for the second post.","Another excerpt","second-post","https://example.com/image2.jpg","Alt text for second image","Tutorials","import,guide"
-```
-
-## 🛠️ Development
-
-### Setting Up Development Environment
-
-```bash
-# Clone the repository
-git clone https://github.com/tiruvengadamr/bbt-framer-to-wordpress.git
-
-# Navigate to plugin directory
-cd bbt-framer-to-wordpress
-
-# If you're working within a WordPress installation
-# Copy to your plugins directory
-cp -r . /path/to/wordpress/wp-content/plugins/bbt-framer-to-wordpress/
-```
-
-### File Structure
-
-```
-bbt-framer-to-wordpress/
-├── bbt-framer-to-wordpress.php  # Main plugin file
-├── framer-importer.css          # Admin styles
-├── framer-importer.js           # Admin JavaScript
-├── README.md                    # Documentation
-├── license.txt                  # GPL v2 License
-└── languages/                   # Translation files (if any)
-```s://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
+1. **Download** the latest release
+2. **Install** via WordPress admin (Plugins → Add New → Upload Plugin)
+3. **Navigate** to Tools → BBT Framer Importer
+4. **Upload** your CSV file and start importing!s://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![GitHub Issues](https://img.shields.io/github/issues/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
