@@ -1,0 +1,21 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2025-07-30
+
+### Added
+- Complete rebrand from CSV Post Importer to BBT Framer to WordPress
+- Enhanced UI with real-time progress feedback
+- Improved error handling and retry functionality
+- Better image processing capabilities
+- Support for additional images custom field
+- Specialized features for Framer content import
+
+### Changed
+- Updated branding to Bytes Brothers
+- Improved user interface and experience
+- Enhanced documentation
+
+### Fixed
+- Various bug fixes and improvements
