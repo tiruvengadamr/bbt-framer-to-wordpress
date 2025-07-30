@@ -21,6 +21,7 @@ BBT Framer to WordPress is a WordPress plugin specifically designed to import co
 [![GitHub Issues](https://img.shields.io/github/issues/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/stargazers)
 
+
 ## 🛠️ Development
 
 ### Setting Up Development Environment
@@ -47,6 +48,7 @@ bbt-framer-to-wordpress/
 ├── README.md                    # Documentation
 ├── license.txt                  # GPL v2 License
 └── languages/                   # Translation files (if any)
+```
 
 ## ✨ Features
 
