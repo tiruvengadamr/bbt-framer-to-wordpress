@@ -1,0 +1,26 @@
+/*
+ * Styles for BBT Framer to WordPress Importer.
+ */
+.bbt-framer-importer .bbt-import-step {
+    margin-top: 20px;
+}
+
+.bbt-framer-importer table.widefat {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.bbt-framer-importer table.widefat th,
+.bbt-framer-importer table.widefat td {
+    padding: 8px 6px;
+}
+
+.bbt-framer-importer #bbt-import-progress {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.bbt-framer-importer #bbt-import-results {
+    margin-top: 10px;
+    font-style: italic;
+}
