@@ -35,7 +35,7 @@ title,content,excerpt,slug,featured_image_url,featured_image_alt,category,tags
 
 ```bash
 # Clone the repository
-git clone https://github.com/bytesbrothers/bbt-framer-to-wordpress.git
+git clone https://github.com/tiruvengadamr/bbt-framer-to-wordpress.git
 
 # Navigate to plugin directory
 cd bbt-framer-to-wordpress
@@ -58,8 +58,8 @@ bbt-framer-to-wordpress/
 ```s://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![GitHub Issues](https://img.shields.io/github/issues/YOUR_GITHUB_USERNAME/bbt-framer-to-wordpress)](https://github.com/YOUR_GITHUB_USERNAME/bbt-framer-to-wordpress/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME/bbt-framer-to-wordpress)](https://github.com/YOUR_GITHUB_USERNAME/bbt-framer-to-wordpress/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/tiruvengadamr/bbt-framer-to-wordpress)](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/stargazers)
 
 > A specialized WordPress plugin designed for seamlessly importing Framer content as blog posts via CSV files, with advanced features like image handling, custom field mapping, and batch processing.
 
@@ -95,7 +95,7 @@ BBT Framer to WordPress is a WordPress plugin that imports blog posts from a CSV
 ## 📥 Installation
 
 ### Method 1: Download Release (Recommended)
-1. Download the latest release from the [GitHub releases page](https://github.com/bytesbrothers/bbt-framer-to-wordpress/releases)
+1. Download the latest release from the [GitHub releases page](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/releases)
 2. In your WordPress dashboard, go to **Plugins → Add New → Upload Plugin**
 3. Select the ZIP file and click **Install Now**
 4. When installation finishes, click **Activate**
@@ -119,7 +119,7 @@ BBT Framer to WordPress is a WordPress plugin that imports blog posts from a CSV
 We welcome contributions from the community! Here's how you can help:
 
 ### Reporting Issues
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/bytesbrothers/bbt-framer-to-wordpress/issues/new) with detailed steps to reproduce
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues/new) with detailed steps to reproduce
 - 💡 **Feature Requests**: Share your ideas for new features
 - 📚 **Documentation**: Help improve our documentation
 
@@ -165,7 +165,7 @@ Yes, the plugin is compatible with both Classic Editor and Gutenberg Block Edito
 ## 🆘 Support
 
 - 📖 **Documentation**: Check this README and inline code comments
-- 🐛 **Issues**: [GitHub Issues](https://github.com/bytesbrothers/bbt-framer-to-wordpress/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/tiruvengadamr/bbt-framer-to-wordpress/issues)
 - 💬 **Community**: [WordPress.org Support Forums](https://wordpress.org/support/)
 - 🌐 **Website**: [Bytes Brothers](https://bytesbrothers.com)
 
@@ -188,7 +188,7 @@ This plugin is released under the terms of the **GNU General Public License v2.0
 
 - 🌐 **Website**: [bytesbrothers.com](https://bytesbrothers.com)
 - 📧 **Contact**: info@bytesbrothers.com
-- 🐙 **GitHub**: [@bytesbrothers](https://github.com/bytesbrothers)
+- 🐙 **GitHub**: [@tiruvengadamr](https://github.com/tiruvengadamr)
 
 ---
 
