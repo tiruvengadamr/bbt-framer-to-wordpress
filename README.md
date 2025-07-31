@@ -8,7 +8,11 @@
 
 > A specialized WordPress plugin designed for seamlessly importing Framer content as blog posts via CSV files, with advanced features like image handling, custom field mapping, and batch processing.
 
-BBT Framer to WordPress is a WordPress plugin specifically designed to import content from Framer projects as blog posts via CSV files. Originally created to bridge the gap between Framer designs and WordPress content management, this plugin excels at handling Framer-exported data and converting it into fully-featured WordPress posts. It's a complete rebrand of the classic CSV Post Importer and is maintained by **[Bytes Brothers](https://bytesbrothers.com)**. The plugin supports featured images, custom field mapping, duplicate detection and batch processing with progress feedback.
+BBT Framer to WordPress is a WordPress plugin specifically designed to import content from CMS in Framer projects as blog posts via CSV files. Originally created to bridge the gap between Framer designs and WordPress content management, this plugin excels at handling Framer-exported data and converting it into fully-featured WordPress posts. This could be useful while migrate from Framer to Wordpress.
+
+The plugin supports featured images, custom field mapping, duplicate detection and batch processing with progress feedback.
+
+It's a complete rebrand of the classic CSV Post Importer and is maintained by **[Bytes Brothers](https://bytesbrothers.com)**.
 
 ## 🚀 Quick Start
 
